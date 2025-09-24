@@ -60,7 +60,7 @@ local InterfaceManager = {} do
 		local Library = self.Library
         local Settings = InterfaceManager.Settings
 
-        InterfaceManager:LoadSettings()
+        --InterfaceManager:LoadSettings()
 
 		local section = tab:AddSection("daddy")
 
@@ -72,7 +72,7 @@ local InterfaceManager = {} do
 			Callback = function(Value)
 				Library:SetTheme(Value)
                 Settings.Theme = Value
-                InterfaceManager:SaveSettings()
+                --InterfaceManager:SaveSettings()
 			end
 		})
 
