@@ -62,7 +62,7 @@ local InterfaceManager = {} do
 
         --InterfaceManager:LoadSettings()
 
-		local section = tab:AddSection("daddy")
+		local section = tab:AddSection("Interface")
 
 		local InterfaceTheme = section:AddDropdown("InterfaceTheme", {
 			Title = "Theme",
